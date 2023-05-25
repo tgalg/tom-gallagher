@@ -2,7 +2,7 @@
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import Logo from '../Logo'
-import { GithubIcon, LinkedInIcon, TwitterIcon } from '../Icons'
+import { GithubIcon, LinkedInIcon, TwitchIcon, TwitterIcon } from '../Icons'
 import { motion } from 'framer-motion'
 
 export interface CustomLinkProps {
@@ -35,8 +35,8 @@ const Navigation = () => {
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
         <CustomLink href="/about" title="About" className="mx-4" />
-        <CustomLink href="/projects" title="Projects" className="mx-4" />
-        <CustomLink href="/articles" title="Articles" className="ml-4" />
+        <CustomLink href="/projects" title="Code Projects" className="mx-4" />
+        <CustomLink href="/gaming" title="Gaming" className="ml-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
@@ -67,6 +67,15 @@ const Navigation = () => {
         >
           <LinkedInIcon />
         </motion.a>
+        {/* <motion.a
+          href="https://www.twitch.com/tombsickle"
+          target={'_blank'}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 ml-3"
+        >
+          <TwitchIcon />
+        </motion.a> */}
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[50%]">
         <Logo />

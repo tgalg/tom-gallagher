@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 
 import Image from 'next/image'
-import profilePic from '@/../public/images/tgalg.png'
+import landingArtwork from '@/../public/images/tgalg.png'
 import Nexus from '@/components/Nexus'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
@@ -17,10 +17,10 @@ export default function Home() {
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
               <Image
-                src={profilePic}
+                src={landingArtwork}
                 alt="tgalg"
                 className="w-full h-auto"
-              ></Image>
+              />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
