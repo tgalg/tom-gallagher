@@ -23,12 +23,12 @@ const projects = (props: Props) => {
           text="Project Details Page Coming Soon!"
           className="mb-16"
         />
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center dark:text-light">
           <p>For now, go checkout my </p>
           <Link
             href="https://github.com/tgalg"
             target={'_blank'}
-            className="ml-2 text-lg font-medium capitalize text-dark hover:underline"
+            className="ml-2 text-lg font-medium capitalize text-dark hover:underline dark:text-light"
           >
             GitHub!
           </Link>

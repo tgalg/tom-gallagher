@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html>
       <body
-        className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
+        className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
       >
         <Navigation />
         {children}
