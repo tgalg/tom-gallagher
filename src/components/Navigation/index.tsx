@@ -62,7 +62,7 @@ const Navigation = () => {
           whileTap={{ scale: 0.9 }}
           className="w-6 mr-3"
         >
-          <TwitterIcon />
+          <TwitterIcon className={undefined} />
         </motion.a>
         <motion.a
           href="https://github.com/tgalg"
@@ -71,7 +71,7 @@ const Navigation = () => {
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3"
         >
-          <GithubIcon />
+          <GithubIcon className={undefined} />
         </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/tom-gallagher-248b58116/"
@@ -80,7 +80,7 @@ const Navigation = () => {
           whileTap={{ scale: 0.9 }}
           className="w-6 ml-3"
         >
-          <LinkedInIcon />
+          <LinkedInIcon className={undefined} />
         </motion.a>
         {/* <motion.a
           href="https://www.twitch.com/tombsickle"
@@ -94,7 +94,7 @@ const Navigation = () => {
 
         <button
           onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
-          className={`ml-3 flex items-center justify-center rounded-full p-1 ${
+          className={`ml-4 flex items-center justify-center rounded-full p-1 ${
             mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'
           }`}
         >
