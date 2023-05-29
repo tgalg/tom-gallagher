@@ -1,10 +1,6 @@
 import * as React from 'react'
 
-export interface IconProps {
-  className?: string
-}
-
-export const TwitterIcon = ({ className, ...props }: IconProps) => (
+export const TwitterIcon = ({ className, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1.23em"
@@ -21,7 +17,7 @@ export const TwitterIcon = ({ className, ...props }: IconProps) => (
   </svg>
 )
 
-export const GithubIcon = ({ className, ...rest }: IconProps) => (
+export const GithubIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -38,7 +34,7 @@ export const GithubIcon = ({ className, ...rest }: IconProps) => (
   </svg>
 )
 
-export const LinkedInIcon = ({ className, ...rest }: IconProps) => (
+export const LinkedInIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -59,7 +55,7 @@ export const LinkedInIcon = ({ className, ...rest }: IconProps) => (
   </svg>
 )
 
-export const SunIcon = ({ className, ...rest }: IconProps) => (
+export const SunIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -237,7 +233,7 @@ export const SunIcon = ({ className, ...rest }: IconProps) => (
   </svg>
 )
 
-export const MoonIcon = ({ className, ...rest }: IconProps) => (
+export const MoonIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -393,7 +389,7 @@ export const MoonIcon = ({ className, ...rest }: IconProps) => (
   </svg>
 )
 
-export const CircularText = ({ className, ...rest }: IconProps) => (
+export const CircularText = ({ className, ...rest }) => (
   <svg
     version="1.0"
     xmlns="http://www.w3.org/2000/svg"
@@ -721,7 +717,7 @@ export const CircularText = ({ className, ...rest }: IconProps) => (
   </svg>
 )
 
-export const LinkArrow = ({ className, ...rest }: IconProps) => (
+export const LinkArrow = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -741,7 +737,7 @@ export const LinkArrow = ({ className, ...rest }: IconProps) => (
     />
   </svg>
 )
-export const TwitchIcon = ({ className, ...rest }: IconProps) => (
+export const TwitchIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
