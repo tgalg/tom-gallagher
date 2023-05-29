@@ -9,7 +9,7 @@ const HireMe = (props: Props) => {
     <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
       <div className="w-48 h-auto flex items-center justify-center relative overflow-hidden">
         <CircularText
-          className={'fill-dark animate-spin-slow flex item-center'}
+          className={'fill-dark animate-spin-slow dark:fill-light'}
         />
         <Link
           href="mailto:thomasxgallagher@gmail.com"
