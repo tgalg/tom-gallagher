@@ -60,7 +60,7 @@ const CustomMobileLink = ({
 
   return (
     <button
-      href={href}
+      ref={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
