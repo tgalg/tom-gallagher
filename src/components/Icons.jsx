@@ -397,13 +397,14 @@ export const CircularText = ({ className, ...rest }) => (
     height="1080.000000pt"
     viewBox="0 0 1080.000000 1080.000000"
     preserveAspectRatio="xMidYMid meet"
-    className={`w-full h-auto ${className} dark:fill-light`}
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <g
       transform="translate(0.000000,1080.000000) scale(0.100000,-0.100000)"
       fill="#000000"
       stroke="none"
+      className="dark:fill-light"
     >
       <path
         d="M5536 9389 c-120 -39 -212 -134 -247 -257 -24 -85 -24 -134 0 -210
