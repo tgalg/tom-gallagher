@@ -12,7 +12,7 @@ import {
 } from '../Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from '../hooks/useThemeSwitcher'
-import { useState } from 'react'
+import { ButtonHTMLAttributes, DetailedHTMLProps, useState } from 'react'
 
 export interface CustomLinkProps {
   href: string
@@ -25,6 +25,11 @@ export interface CustomMobileLinkProps {
   className?: string
   toggle: () => void
 }
+
+// export type CustomMobileLinkProps = DetailedHTMLProps<
+//   ButtonHTMLAttributes<HTMLButtonElement>,
+//   HTMLButtonElement
+// >
 
 const CustomLink = ({ href, title, className = '' }: CustomLinkProps) => {
   const pathName = usePathname()
@@ -59,8 +64,8 @@ const CustomMobileLink = ({
   }
 
   return (
-    <button
-      ref={href}
+    <a
+      href={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
@@ -73,7 +78,7 @@ const CustomMobileLink = ({
       >
         &nbsp;
       </span>
-    </button>
+    </a>
   )
 }
 
