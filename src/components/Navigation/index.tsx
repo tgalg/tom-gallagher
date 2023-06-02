@@ -26,11 +26,6 @@ export interface CustomMobileLinkProps {
   toggle: () => void
 }
 
-// export type CustomMobileLinkProps = DetailedHTMLProps<
-//   ButtonHTMLAttributes<HTMLButtonElement>,
-//   HTMLButtonElement
-// >
-
 const CustomLink = ({ href, title, className = '' }: CustomLinkProps) => {
   const pathName = usePathname()
 
