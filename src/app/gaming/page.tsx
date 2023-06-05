@@ -14,7 +14,7 @@ const gaming = (props: Props) => {
   return (
     <main>
       <Nexus>
-        <AnimatedText text="An Enitre Page Dedicated To My Gaming Hobby, Coming Soon!" />
+        <AnimatedText text="An Entire Page Dedicated To My Gaming Hobby, Coming Soon!" />
       </Nexus>
     </main>
   )

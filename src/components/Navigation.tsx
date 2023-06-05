@@ -1,7 +1,7 @@
 'use client'
 import { usePathname, useRouter } from 'next/navigation'
 import Link from 'next/link'
-import Logo from '../Logo'
+import Logo from './Logo'
 import {
   GithubIcon,
   LinkedInIcon,
@@ -9,9 +9,9 @@ import {
   SunIcon,
   TwitchIcon,
   TwitterIcon,
-} from '../Icons'
+} from './Icons'
 import { motion } from 'framer-motion'
-import useThemeSwitcher from '../hooks/useThemeSwitcher'
+import useThemeSwitcher from './hooks/useThemeSwitcher'
 import { ButtonHTMLAttributes, DetailedHTMLProps, useState } from 'react'
 
 export interface CustomLinkProps {
@@ -25,11 +25,6 @@ export interface CustomMobileLinkProps {
   className?: string
   toggle: () => void
 }
-
-// export type CustomMobileLinkProps = DetailedHTMLProps<
-//   ButtonHTMLAttributes<HTMLButtonElement>,
-//   HTMLButtonElement
-// >
 
 const CustomLink = ({ href, title, className = '' }: CustomLinkProps) => {
   const pathName = usePathname()
