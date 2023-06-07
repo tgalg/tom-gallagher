@@ -19,13 +19,13 @@ export const metadata: Metadata = {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/favicon/favicon-32x32.png',
+      url: '/favicon/favicon-large-32x32.png',
     },
     {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      url: '/favicon/favicon-16x16.png',
+      url: '/favicon/favicon-small-16x16.png',
     },
     {
       rel: 'apple-touch-icon',
