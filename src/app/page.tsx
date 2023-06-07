@@ -32,9 +32,8 @@ export default function Home() {
               <p className="my-4 text-base font-mediummd:text-sm sm:text-xs">
                 As an accomplished full-stack developer, I am committed to
                 transforming concepts into groundbreaking web applications.
-                Delve into my most recent projects and articles, demonstrating
-                my proficiency in React.js and the broader landscape of web
-                development.
+                Delve into my most recent projects, demonstrating my proficiency
+                in React.js and the broader landscape of web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
@@ -44,8 +43,7 @@ export default function Home() {
                 "
                   download={true}
                 >
-                  Resume
-                  {/* <LinkArrow className={''} /> */}
+                  Resume <LinkArrow className={'w-6 ml-1'} />
                 </Link>
                 <Link
                   href="mailto:thomasxgallagher@gmail.com"
