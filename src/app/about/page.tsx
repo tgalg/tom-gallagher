@@ -6,6 +6,8 @@ import AnimatedText from '@/components/AnimatedText'
 import profilePic from '@/../public/images/profilePic.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/Icons'
 
 type Props = {}
 
@@ -51,6 +53,22 @@ const about = (props: Props) => {
               Currently seeking a challenging new role where I can utilize my
               technical skills and passion for innovation.
             </p>
+
+            <div className="mt-12 flex items-center justify-center dark:text-light sm:col-span-2">
+              <p>
+                To learn more about my professional experience and skills,
+                download my resume!
+              </p>
+              <Link
+                href="/resume_Tom_Gallagher_.pdf"
+                target={'_blank'}
+                className="ml-4 flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:border-light md:p-2 md:px-4 md:text-base
+                "
+                download={true}
+              >
+                Resume <LinkArrow className={'w-6 ml-1'} />
+              </Link>
+            </div>
           </div>
           <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
