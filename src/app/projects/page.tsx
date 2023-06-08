@@ -106,7 +106,7 @@ const projects = (props: Props) => {
             <FeaturedProject
               title="Critical Hits"
               img={criticalHits}
-              summary="A game review site built with Next.js and Sanity.io"
+              summary="A game review site built with Next.js and Firebase"
               link="https://github.com/tgalg/critical-hits"
               github="https://github.com/tgalg/critical-hits"
               type="Full Stack Web App"
