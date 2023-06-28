@@ -10,14 +10,30 @@ export const metadata: Metadata = {
   description: 'Tinkering Away',
 }
 
-const gaming = (props: Props) => {
+const Gaming = (props: Props) => {
   return (
-    <main>
+    <main className="flex justify-center items-center flex-col">
       <Nexus>
-        <AnimatedText text="An Entire Page Dedicated To My Gaming Hobby, Coming Soon!" />
+        <AnimatedText
+          text="Check Out My Live Stream!"
+          className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+        />
+        <div className="w-[90%] mx-auto">
+          <div className="relative" style={{ paddingTop: '56.25%' }}>
+            <iframe
+              src="https://player.twitch.tv/?channel=tgalg&parent=www.tgalg.com"
+              height="100%"
+              width="100%"
+              className="absolute top-0 left-0"
+              frameBorder="0"
+              scrolling="no"
+              allowFullScreen={true}
+            ></iframe>
+          </div>
+        </div>
       </Nexus>
     </main>
   )
 }
 
-export default gaming
+export default Gaming
