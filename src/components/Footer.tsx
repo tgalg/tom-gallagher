@@ -25,9 +25,8 @@ const Footer = (props: Props) => {
         </div>
 
         <Link
-          href="https://github.com/tgalg"
+          href="mailto:thomasxgallagher@gmail.com"
           className="hover:underline underline-offset-2"
-          target={'_blank'}
         >
           Say Hello
         </Link>
