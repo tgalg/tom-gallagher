@@ -21,7 +21,7 @@ const Gaming = (props: Props) => {
         <div className="w-[90%] mx-auto">
           <div className="relative" style={{ paddingTop: '56.25%' }}>
             <iframe
-              src="https://www.twitch.tv/t0mbg&parent=www.tgalg.com"
+              src="https://player.twitch.tv/?channel=t0mbg&parent=www.tgalg.com"
               height="100%"
               width="100%"
               className="absolute top-0 left-0"
